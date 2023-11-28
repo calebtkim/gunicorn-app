@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 
 @app.route("/")
 def index():
-  return "Your Flask App Works!"
+  return "Your Flask App Works!!"
 
 @app.route("/hello")
 def hello():
