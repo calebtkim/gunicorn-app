@@ -26,4 +26,4 @@ run:
     - name: OTEL_PYTHON_DISABLED_INSTRUMENTATIONS 
       value: urllib3
     - name: OTEL_RESOURCE_ATTRIBUTES
-      value: 'service.name=apprunner-python-xray'
+      value: 'service.name=test-gunicorn-app'
